@@ -1,0 +1,17 @@
+{
+  "name": "Express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon .",
+    "start": "node ."
+  },
+  "dependencies": {
+    "apollo-server": "^3.8.2",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.5.0",
+    "nodemon": "^2.0.16"
+  }
+}
